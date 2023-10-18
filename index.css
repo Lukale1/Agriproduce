@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 900px;
+}
+
+.icon {
+        width: 1400px;
+        float: left;
+}
+
+body {
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+.j {
+    position: absolute;
+    top: 0;
+    left: 4%;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.j a {
+    text-decoration: none;
+    color: green;
+}
+
+.f {
+    position: absolute;
+    top: 10%;
+    left: 45%;
+}
+
+.menu {
+    width: 800px;
+    float: left;
+}
+
+ul {
+    display: flex;
+    gap: 3.5rem;
+    position: absolute;
+    top: 3.7%;
+    left: 25%;
+}
+
+ul li {
+    list-style: none;
+    font-size: 18px;
+    text-transform: none;
+    font-style: italic;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.menu1 {
+    width: 1100px;
+    float: left;
+}
+
+ol {
+    display: flex;
+    gap: 1.5rem;
+    position: absolute;
+    top: 16%;
+    left: 11%;
+    background: green 100%;
+}
+
+ol li {
+    list-style: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+ol li a {
+    text-decoration: none;
+    color: white;
+}
+
+.b {
+    position: absolute;
+    top: 28%;
+    left: 9%;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 0.5rem;
+    max-width: 465px;
+}
+
+.k {
+    position: absolute;
+    top: 28%;
+    left: 57%;
+    height: 475px;
+    width: 375px;
+}
+
+.c {
+    position: absolute;
+    top: 104%;
+    left: 31%;
+    font-style: italic;
+    font-size: 26px;
+    max-width: 490px;
+    font-weight: bold;
+}
+
+.l {
+    font-size: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0%;
+    left: 4%;
+}
+
+.d {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3.5rem;
+    position: absolute;
+    top: 135%;
+    left: 4.5%;
+}
+
+
+
+.w {
+    position: absolute;
+    top: 57%;
+    left: 23%;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.g {
+    display: grid;
+    grid-template-columns: (3, 1fr); 
+    gap: 3.5rem;
+    top: 150%;
+    left: 6.5%;
+}
+
+.h {
+    opacity: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3.5rem;
+    margin-top: 5px;
+}
+
+.i {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 59%;
+    left: 5%;
+    margin-bottom: 20px;
+}
+
+.bt {
+    margin-top: 2.5px;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 105px;
+    height: 25px;
+    border-radius: 10px;
+    background: green; 
+    color: black;
+}
